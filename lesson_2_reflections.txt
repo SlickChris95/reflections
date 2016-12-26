@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- When you initialize a git repository you can now view to commit history and use git commands on the repository. Without initializing it, it is not yet a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-The staging area is a half way point in between working directory and repository. The value that it offers is that by selecting what files you want to add to the staging area you have much more control of what each of your commits consisits of.
