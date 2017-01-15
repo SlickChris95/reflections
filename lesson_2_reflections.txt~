@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- When you initialize a git repository you can now view to commit history and use git commands on the repository. Without initializing it, it is not yet a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-The staging area is a half way point in between working directory and repository. The value that it offers is that by selecting what files you want to add to the staging area you have much more control of what each of your commits consisits of.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- I can utilize the staging area by making sure that the changes that I want to add to a new commit are logically significant. The staging area acts as a middle man.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- A situation in which creating a new branch might be helpful would be where you want to add a new feature to a game, but don't want to include it yet on the original branch.
+
+How do the diagrams help you visualize the branch structure?
+
+- by running commands like "git log --graph --oneline branch1 branch2" it allows us to see the actual branch stucture. Having a visual representation of this allows us to see what branches are part of what in the repository.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The result of merging two branches together is that we know have all the information from both branches in one place. This allows us to introduce the new feature on our master branch that we have been working on. We represented the way we do on the diagram to show the effect of combining the two branches.
+
